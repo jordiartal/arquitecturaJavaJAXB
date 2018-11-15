@@ -1,6 +1,7 @@
-#Introducción a Java JAXB y el manejo de XML 
+#IntroducciÃ³n a Java JAXB y el manejo de XML
+[Link to IntroducciÃ³n a Java JAXB y el manejo de XML](https://www.arquitecturajava.com/introduccion-java-jaxb/)
 
-Java JAXB  o Java XML API Binding nos permite trabajar con XML y JSON de una forma cómoda usando Java.  Vamos a ver una introducción a este estándar y sus anotaciones. Para ello nos  apoyaremos en la clase Libro y  las anotaciones de JAXB:
+Java JAXB  o Java XML API Binding nos permite trabajar con XML y JSON de una forma comoda usando Java.  Vamos a ver una introduccion a este estandar y sus anotaciones. Para ello nos  apoyaremos en la clase Libro y  las anotaciones de JAXB:
 
 
 
@@ -45,7 +46,7 @@ public class Libro {
 }
 ```
 
-Hemos añadido dos anotaciones @XmlRootElement que especifica la clase raiz que vamos a convertir a XML . Por otro lado @XmlElement permite cambiar el nombre de los elementos cuando el fichero XML se construya. Es momento de generar el fichero XML .
+Hemos aÃ±adido dos anotaciones @XmlRootElement que especifica la clase raiz que vamos a convertir a XML . Por otro lado @XmlElement permite cambiar el nombre de los elementos cuando el fichero XML se construya. Es momento de generar el fichero XML .
 
 ```
 package com.arquitecturajava;
@@ -85,11 +86,11 @@ Disponemos de dos objetos el contexto y el marshaller . El contexto se encarga d
 
 ![alt text](readme/JavaJAXBXML.jpg)
 
-Si ejecutamos el código veremos un XML en la consola:
+Si ejecutamos el codigo veremos un XML en la consola:
 
 ![alt text](readme/JavaJAXB.png)
 
-La misma operación se puede realizar al contrario , leer un fichero XML y rellenar un objeto Java.
+La misma operacion se puede realizar al contrario , leer un fichero XML y rellenar un objeto Java.
 
 ```
 package com.arquitecturajava;
